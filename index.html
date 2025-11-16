@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passion Discovery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Passion Discovery</h1>
+
+    <label>What are you interested in?</label>
+    <select id="interest">
+        <option value="creative">Creative Work</option>
+        <option value="technology">Technology</option>
+        <option value="helping">Helping People</option>
+        <option value="business">Business & Money</option>
+        <option value="fitness">Fitness & Health</option>
+    </select>
+
+    <label>How do you like to work?</label>
+    <select id="style">
+        <option value="solo">Working Alone</option>
+        <option value="team">Working in a Team</option>
+        <option value="outdoor">Outdoor</option>
+        <option value="indoor">Indoor</option>
+    </select>
+
+    <button onclick="findPassion()">Find My Passion</button>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
