@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50; /* Green */
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+#passion-input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+    max-width: 400px; /* Limit input width */
+}
+
+#passion-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+#add-passion-btn {
+    padding: 12px 25px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: back
